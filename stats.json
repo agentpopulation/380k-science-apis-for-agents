@@ -1,0 +1,2693 @@
+{
+  "repo": "science-api-endpoints",
+  "title": "Science API endpoints",
+  "snapshot": "2026-11-15",
+  "snapshot_text": "15 Nov 2026",
+  "snapshot_time": "2026-11-15 09:06:22 IST",
+  "tested_total": 5129834,
+  "passed_total": 3726509,
+  "rows": 384890,
+  "unique_urls": 384890,
+  "services": 6223,
+  "country_codes": 248,
+  "single_country": null,
+  "agent_ready": 206647,
+  "range": {
+    "min": "2026-11-10",
+    "max": "2026-11-15",
+    "text": "10–15 Nov 2026"
+  },
+  "formats": {
+    "json": 206647,
+    "xml": 172400,
+    "csv": 3110,
+    "geojson": 2492,
+    "zip": 146,
+    "txt": 95
+  },
+  "categories": {
+    "Science": 384890
+  },
+  "tags": {
+    "no-key": 384890,
+    "science": 384890,
+    "agent-ready": 206647,
+    "json": 206647,
+    "xml": 172400,
+    "ai-ml": 129284,
+    "maps": 13622,
+    "health": 8695,
+    "open-data": 8123,
+    "elevation": 4646,
+    "government": 4098,
+    "oceans": 3814,
+    "finance": 3367,
+    "weather": 3226,
+    "csv": 3110,
+    "environment": 2575,
+    "geojson": 2492,
+    "economy": 2421,
+    "statistics": 1011,
+    "tides": 1008,
+    "rivers": 969,
+    "floods": 758,
+    "climate": 457,
+    "forecast": 394,
+    "aviation": 307,
+    "maritime": 264,
+    "energy": 254,
+    "hazards": 247,
+    "wildfire": 152,
+    "earthquakes": 100,
+    "air-quality": 86,
+    "transit": 78,
+    "traffic": 61,
+    "volcanoes": 46,
+    "tsunami": 33,
+    "groundwater": 32,
+    "embeddings": 13,
+    "geocoding": 13,
+    "speech": 13
+  },
+  "dates": {
+    "2026-11-15": 372731,
+    "2026-11-14": 12142,
+    "2026-11-10": 17
+  },
+  "countryNames": {
+    "SI": "Slovenia",
+    "EE": "Estonia",
+    "PH": "Philippines",
+    "LT": "Lithuania",
+    "MK": "North Macedonia",
+    "PE": "Peru",
+    "IR": "Iran",
+    "MA": "Morocco",
+    "LU": "Luxembourg",
+    "BB": "Barbados",
+    "BO": "Bolivia",
+    "JM": "Jamaica",
+    "MG": "Madagascar",
+    "GY": "Guyana",
+    "MD": "Moldova",
+    "MQ": "Martinique",
+    "AO": "Angola",
+    "TZ": "Tanzania",
+    "BM": "Bermuda",
+    "ET": "Ethiopia",
+    "LK": "Sri Lanka",
+    "RW": "Rwanda",
+    "BS": "Bahamas",
+    "FM": "Micronesia",
+    "SC": "Seychelles",
+    "ZM": "Zambia",
+    "CM": "Cameroon",
+    "DM": "Dominica",
+    "SV": "El Salvador",
+    "VU": "Vanuatu",
+    "KY": "Cayman Islands",
+    "FO": "Faroe Islands",
+    "KI": "Kiribati",
+    "SZ": "Eswatini",
+    "TD": "Chad",
+    "TM": "Turkmenistan",
+    "CI": "Cote d'Ivoire",
+    "KN": "Saint Kitts and Nevis",
+    "SD": "Sudan",
+    "MU": "Mauritius",
+    "AS": "American Samoa",
+    "JO": "Jordan",
+    "CD": "DR Congo",
+    "AX": "Åland Islands",
+    "CW": "Curaçao",
+    "BQ": "Bonaire, Sint Eustatius and Saba",
+    "YT": "Mayotte",
+    "BH": "Bahrain",
+    "CG": "Republic of the Congo",
+    "GA": "Gabon",
+    "MT": "Malta",
+    "MM": "Myanmar",
+    "MR": "Mauritania",
+    "NC": "New Caledonia",
+    "PY": "Paraguay",
+    "RU": "Russia",
+    "PR": "Puerto Rico",
+    "MY": "Malaysia",
+    "SA": "Saudi Arabia",
+    "BA": "Bosnia and Herzegovina",
+    "GT": "Guatemala",
+    "SG": "Singapore",
+    "HN": "Honduras",
+    "CR": "Costa Rica",
+    "KE": "Kenya",
+    "PW": "Palau",
+    "AZ": "Azerbaijan",
+    "NG": "Nigeria",
+    "MN": "Mongolia",
+    "TC": "Turks and Caicos Islands",
+    "MW": "Malawi",
+    "GE": "Georgia",
+    "ZW": "Zimbabwe",
+    "BD": "Bangladesh",
+    "NA": "Namibia",
+    "NR": "Nauru",
+    "SR": "Suriname",
+    "TO": "Tonga",
+    "AD": "Andorra",
+    "BJ": "Benin",
+    "BF": "Burkina Faso",
+    "FJ": "Fiji",
+    "GM": "Gambia",
+    "MV": "Maldives",
+    "ML": "Mali",
+    "SS": "South Sudan",
+    "CF": "Central African Republic",
+    "DJ": "Djibouti",
+    "ER": "Eritrea",
+    "IM": "Isle of Man",
+    "WS": "Samoa",
+    "GP": "Guadeloupe",
+    "QA": "Qatar",
+    "LB": "Lebanon",
+    "TF": "French Southern Territories",
+    "EH": "Western Sahara",
+    "EU": "European Union",
+    "US": "United States",
+    "DE": "Germany",
+    "GB": "United Kingdom",
+    "AU": "Australia",
+    "ES": "Spain",
+    "IT": "Italy",
+    "CH": "Switzerland",
+    "CA": "Canada",
+    "NZ": "New Zealand",
+    "CZ": "Czechia",
+    "AT": "Austria",
+    "SK": "Slovakia",
+    "IE": "Ireland",
+    "HU": "Hungary",
+    "DK": "Denmark",
+    "BE": "Belgium",
+    "SE": "Sweden",
+    "CO": "Colombia",
+    "CL": "Chile",
+    "FR": "France",
+    "UA": "Ukraine",
+    "NL": "Netherlands",
+    "ZA": "South Africa",
+    "EG": "Egypt",
+    "PL": "Poland",
+    "ID": "Indonesia",
+    "IN": "India",
+    "BR": "Brazil",
+    "CN": "China",
+    "TW": "Taiwan",
+    "EC": "Ecuador",
+    "MX": "Mexico",
+    "BN": "Brunei Darussalam",
+    "GR": "Greece",
+    "IO": "British Indian Ocean Territory",
+    "IL": "Israel",
+    "KR": "South Korea",
+    "BG": "Bulgaria",
+    "JP": "Japan",
+    "AM": "Armenia",
+    "NO": "Norway",
+    "AI": "Anguilla",
+    "NP": "Nepal",
+    "TR": "Turkiye",
+    "RS": "Serbia",
+    "AR": "Argentina",
+    "AF": "Afghanistan",
+    "CU": "Cuba",
+    "IQ": "Iraq",
+    "VE": "Venezuela",
+    "PT": "Portugal",
+    "PK": "Pakistan",
+    "BY": "Belarus",
+    "HR": "Croatia",
+    "VN": "Vietnam",
+    "UG": "Uganda",
+    "UY": "Uruguay",
+    "AL": "Albania",
+    "RO": "Romania",
+    "DZ": "Algeria",
+    "UZ": "Uzbekistan",
+    "FI": "Finland",
+    "DO": "Dominican Republic",
+    "BW": "Botswana",
+    "CY": "Cyprus",
+    "PA": "Panama",
+    "GH": "Ghana",
+    "TH": "Thailand",
+    "KZ": "Kazakhstan",
+    "LS": "Lesotho",
+    "PS": "Palestine",
+    "SY": "Syria",
+    "IS": "Iceland",
+    "HK": "Hong Kong",
+    "YE": "Yemen",
+    "KW": "Kuwait",
+    "AE": "United Arab Emirates",
+    "ME": "Montenegro",
+    "ST": "Sao Tome and Principe",
+    "VG": "Virgin Islands, British",
+    "NI": "Nicaragua",
+    "OM": "Oman",
+    "LC": "Saint Lucia",
+    "GQ": "Equatorial Guinea",
+    "MH": "Marshall Islands",
+    "NE": "Niger",
+    "SB": "Solomon Islands",
+    "PF": "French Polynesia",
+    "SL": "Sierra Leone",
+    "AG": "Antigua and Barbuda",
+    "KP": "North Korea",
+    "TL": "Timor-Leste",
+    "GU": "Guam",
+    "GG": "Guernsey",
+    "GF": "French Guiana",
+    "SX": "Sint Maarten (Dutch part)",
+    "MZ": "Mozambique",
+    "PG": "Papua New Guinea",
+    "CK": "Cook Islands",
+    "GN": "Guinea",
+    "GW": "Guinea-Bissau",
+    "SH": "Saint Helena, Ascension and Tristan da Cunha",
+    "NU": "Niue",
+    "GS": "South Georgia and the South Sandwich Islands",
+    "VI": "Virgin Islands, U.S.",
+    "BZ": "Belize",
+    "CV": "Cabo Verde",
+    "LY": "Libya",
+    "LV": "Latvia",
+    "BT": "Bhutan",
+    "KH": "Cambodia",
+    "MP": "Northern Mariana Islands",
+    "TJ": "Tajikistan",
+    "TN": "Tunisia",
+    "TV": "Tuvalu",
+    "VC": "Saint Vincent and the Grenadines",
+    "LR": "Liberia",
+    "SO": "Somalia",
+    "GI": "Gibraltar",
+    "NF": "Norfolk Island",
+    "AQ": "Antarctica",
+    "SM": "San Marino",
+    "HT": "Haiti",
+    "GL": "Greenland",
+    "CC": "Cocos (Keeling) Islands",
+    "TK": "Tokelau",
+    "PN": "Pitcairn",
+    "TT": "Trinidad and Tobago",
+    "BI": "Burundi",
+    "KM": "Comoros",
+    "FK": "Falkland Islands (Malvinas)",
+    "GD": "Grenada",
+    "MF": "Saint Martin (French part)",
+    "MO": "Macao",
+    "LA": "Laos",
+    "MS": "Montserrat",
+    "SJ": "Svalbard and Jan Mayen",
+    "WF": "Wallis and Futuna",
+    "RE": "Réunion",
+    "MC": "Monaco",
+    "CX": "Christmas Island",
+    "LI": "Liechtenstein",
+    "AW": "Aruba",
+    "XK": "Kosovo",
+    "JE": "Jersey",
+    "BL": "Saint Barthélemy",
+    "PM": "Saint Pierre and Miquelon",
+    "TG": "Togo",
+    "SN": "Senegal",
+    "VA": "Vatican City",
+    "KG": "Kyrgyzstan"
+  },
+  "leftOutCredential": 0,
+  "leftOutListing": 0,
+  "left_out_by_reason": {
+    "listing page, not a data call": 0,
+    "credential in the address": 0,
+    "private or local address": 478,
+    "email-like address": 15,
+    "survey form layer": 257,
+    "camera or image URL": 0,
+    "stored-login proxy": 0,
+    "class-exercise copy": 0,
+    "editable layer": 4,
+    "police stop records": 0,
+    "form answer layer": 34,
+    "needs an Indian network location": 86,
+    "leak check match": 0,
+    "coursework layer": 39,
+    "public input layer": 2,
+    "service name like a class layer or a person": 0,
+    "social network server information": 0,
+    "repeated address": 0
+  },
+  "leftOutExcluded": 0,
+  "left_out_by_rule": [],
+  "sample_rows": 1000,
+  "focus_rows": 102756,
+  "arcgis_online_rows": 4623,
+  "subcategories": {},
+  "agent_formats": [
+    "json"
+  ],
+  "largestServices": [
+    {
+      "service": "DOV Flanders subsoil / water",
+      "display": "DOV Flanders subsoil / water",
+      "host": "www.dov.vlaanderen.be",
+      "endpoints": 5220,
+      "agent_ready": 0,
+      "in_focus": 5220,
+      "country_codes": 1,
+      "formats": [
+        "xml"
+      ]
+    },
+    {
+      "service": "Sunrise-Sunset.org",
+      "display": "Sunrise-Sunset.org",
+      "host": "api.sunrise-sunset.org",
+      "endpoints": 1478,
+      "agent_ready": 1478,
+      "in_focus": 1478,
+      "country_codes": 242,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "MET Norway (api.met.no)",
+      "display": "MET Norway (api.met.no)",
+      "host": "api.met.no",
+      "endpoints": 1271,
+      "agent_ready": 1271,
+      "in_focus": 1271,
+      "country_codes": 186,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "4dnucleome",
+      "display": "4dnucleome",
+      "host": "data.4dnucleome.org",
+      "endpoints": 1000,
+      "agent_ready": 1000,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Alliancegenome",
+      "display": "Alliancegenome",
+      "host": "www.alliancegenome.org",
+      "endpoints": 1000,
+      "agent_ready": 1000,
+      "in_focus": 1000,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Ap Southeast 2 (AWS)",
+      "display": "Ap Southeast 2 (AWS)",
+      "host": "nz-coastal.s3.ap-southeast-2.amazonaws.com",
+      "endpoints": 1000,
+      "agent_ready": 1000,
+      "in_focus": 1000,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Ap Southeast 2 (AWS)",
+      "display": "Ap Southeast 2 (AWS)",
+      "host": "nz-elevation.s3.ap-southeast-2.amazonaws.com",
+      "endpoints": 1000,
+      "agent_ready": 1000,
+      "in_focus": 1000,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Ap Southeast 2 (AWS)",
+      "display": "Ap Southeast 2 (AWS)",
+      "host": "nz-imagery.s3.ap-southeast-2.amazonaws.com",
+      "endpoints": 1000,
+      "agent_ready": 1000,
+      "in_focus": 1000,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Bertt (Github)",
+      "display": "Bertt (Github)",
+      "host": "bertt.github.io",
+      "endpoints": 1000,
+      "agent_ready": 1000,
+      "in_focus": 1000,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Bgee",
+      "display": "Bgee",
+      "host": "www.bgee.org",
+      "endpoints": 1000,
+      "agent_ready": 1000,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Encodeproject",
+      "display": "Encodeproject",
+      "host": "www.encodeproject.org",
+      "endpoints": 1000,
+      "agent_ready": 1000,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Fmi",
+      "display": "Fmi",
+      "host": "pta.data.lit.fmi.fi",
+      "endpoints": 1000,
+      "agent_ready": 1000,
+      "in_focus": 1000,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Genenames",
+      "display": "Genenames",
+      "host": "rest.genenames.org",
+      "endpoints": 1000,
+      "agent_ready": 1000,
+      "in_focus": 1000,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Noaa",
+      "display": "Noaa",
+      "host": "opendap.co-ops.nos.noaa.gov",
+      "endpoints": 1000,
+      "agent_ready": 0,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "xml"
+      ]
+    },
+    {
+      "service": "Reactome",
+      "display": "Reactome",
+      "host": "reactome.org",
+      "endpoints": 1000,
+      "agent_ready": 1000,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "S3 (AWS)",
+      "display": "S3 (AWS)",
+      "host": "canada-spot-ortho.s3.amazonaws.com",
+      "endpoints": 1000,
+      "agent_ready": 1000,
+      "in_focus": 1000,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "S3 US West 2 (AWS)",
+      "display": "S3 US West 2 (AWS)",
+      "host": "nasa-iserv.s3-us-west-2.amazonaws.com",
+      "endpoints": 1000,
+      "agent_ready": 1000,
+      "in_focus": 1000,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "mldata.opendata.ai: The Provenance Sandb",
+      "display": "mldata.opendata.ai: The Provenance Sandb",
+      "host": "data.source.coop",
+      "endpoints": 1000,
+      "agent_ready": 1000,
+      "in_focus": 1000,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ORCID Public API",
+      "display": "ORCID Public API",
+      "host": "pub.orcid.org",
+      "endpoints": 1000,
+      "agent_ready": 1000,
+      "in_focus": 0,
+      "country_codes": 0,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Overturemaps",
+      "display": "Overturemaps",
+      "host": "stac.overturemaps.org",
+      "endpoints": 1000,
+      "agent_ready": 1000,
+      "in_focus": 1000,
+      "country_codes": 0,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Planet",
+      "display": "Planet",
+      "host": "www.planet.com",
+      "endpoints": 1000,
+      "agent_ready": 1000,
+      "in_focus": 1000,
+      "country_codes": 0,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "S3 (AWS)",
+      "display": "S3 (AWS)",
+      "host": "globalnightlight.s3.amazonaws.com",
+      "endpoints": 1000,
+      "agent_ready": 1000,
+      "in_focus": 1000,
+      "country_codes": 0,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "S3 (AWS)",
+      "display": "S3 (AWS)",
+      "host": "maxar-opendata.s3.amazonaws.com",
+      "endpoints": 1000,
+      "agent_ready": 1000,
+      "in_focus": 1000,
+      "country_codes": 0,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "S3 (AWS)",
+      "display": "S3 (AWS)",
+      "host": "meeo-s3.s3.amazonaws.com",
+      "endpoints": 1000,
+      "agent_ready": 1000,
+      "in_focus": 1000,
+      "country_codes": 0,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "US West 2 (AWS)",
+      "display": "US West 2 (AWS)",
+      "host": "capella-open-data.s3.us-west-2.amazonaws.com",
+      "endpoints": 1000,
+      "agent_ready": 1000,
+      "in_focus": 1000,
+      "country_codes": 0,
+      "formats": [
+        "json"
+      ]
+    }
+  ],
+  "bannerGroups": [
+    {
+      "label": "IN",
+      "n": 109513,
+      "agent": 16200
+    },
+    {
+      "label": "US",
+      "n": 41174,
+      "agent": 30745
+    },
+    {
+      "label": "DE",
+      "n": 10446,
+      "agent": 6320
+    },
+    {
+      "label": "UA",
+      "n": 9874,
+      "agent": 7924
+    },
+    {
+      "label": "BR",
+      "n": 9772,
+      "agent": 6740
+    },
+    {
+      "label": "PE",
+      "n": 9761,
+      "agent": 7613
+    }
+  ],
+  "focus_text": "(title or subcategory matches /geolog|geologic|bedrock|surficial|borehole|drill|stratigra|lithol|mineral|\\brocks\\b|rock types?|fault|fossil|quaternary|sediment|geophys|gravity|magnet|seism|isopach|isohyps|\\bformations?\\b|\\bfm\\b|aquifer|karst|cave|geosite|geotop|geomorph|tectonic|ondergrond|boring|grondwater|geologi|geología|geologia|geologie|bodem|soil/i OR title matches /sunrise|sunset|satellit|space weather|space station|spacecraft|orbit|\\btle\\b|\\biss\\b|launch|astronom|planetary|eonet|\\bstac\\b|research|scien|wissenschaft|r&d|biodivers|gbif|species|genom|laborator|experiment|cordis|patent|physics|replication data/i OR subcategory matches /^Sun times|satellite/space|GBIF|· (research|science|scientific|satellite)$/i OR url matches /www\\.dov\\.vlaanderen\\.be//i) AND NOT title or subcategory matches /wifi|wi-fi|\\bict\\b|internet|digital (nodes|facilitation|divide|skills|technolog)|digitale\\b|digitalisation|facilitazione digitale|broadband|telecom|\\bozg\\b|cso services|freifunk|router|development plan|xplanung|bebauungsplan|building model|commerce|salary|complaints|organic (farm|production|operator)|gastronom|restaurant|study programme|authorisations for study|for research and study|limewire/i AND NOT subcategory matches /· (schools|libraries|substations|pipelines)$/i AND NOT (subcategory matches /· (astronom|genom)$/i AND NOT title matches /astronom|genom|\\bgenes?\\b|genetic/i)",
+  "buckets": [
+    {
+      "id": "agent",
+      "emoji": "🤖",
+      "name": "Agent tools",
+      "title": "Sun times, space, satellite and biodiversity lookups an agent can call",
+      "build": "Wrap one sun-times URL as a get_sun_times tool: pass a latitude and longitude, return sunrise, sunset and day length; add space-weather and GBIF lookups as separate tools with a timeout.",
+      "filter": {
+        "and": [
+          {
+            "tag": "agent-ready"
+          },
+          {
+            "subcategoryMatches": "^Sun times|satellite/space|GBIF"
+          }
+        ]
+      },
+      "filter_text": "tags has agent-ready AND subcategory matches /^Sun times|satellite/space|GBIF/i",
+      "fallback": false,
+      "notes": [
+        {
+          "count": 2749,
+          "text": "are sunrise and sunset queries for one city each; change lat and lng (or lon) in the URL for any other place."
+        }
+      ],
+      "count": 2870,
+      "services_matching": 19,
+      "country_codes_matching": 245,
+      "formats_matching": 1,
+      "example": {
+        "url": "https://api.sunrise-sunset.org/json?lat=-0.102&lng=34.762&formatted=0",
+        "title": "Sunrise/sunset: Kisumu, Kenya",
+        "service": "Sunrise-Sunset.org",
+        "last_tested": "2026-11-14"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and are tagged `agent-ready` (no key sent in the test call, JSON body, passed a data call). Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `url matches /sunrise-sunset\\.org/json\\?lat=|/sunrise/3\\.0/sun\\?lat=|publishingCountry=|planetary-k-index|gp\\.php\\?GROUP=|events\\?status=|launches/upcoming|satellites/\\?format=/i`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 19,
+        "services": [
+          {
+            "service": "Sunrise-Sunset.org",
+            "display": "Sunrise-Sunset.org",
+            "host": "api.sunrise-sunset.org",
+            "endpoints_in_bucket": 1478,
+            "endpoints_in_pack": 1478,
+            "country_codes": [
+              "AD",
+              "AE",
+              "AF",
+              "AG",
+              "AI",
+              "AL",
+              "AM",
+              "AO",
+              "AR",
+              "AS",
+              "AT",
+              "AU",
+              "AW",
+              "AX",
+              "AZ",
+              "BA",
+              "BB",
+              "BD",
+              "BE",
+              "BF",
+              "BG",
+              "BH",
+              "BI",
+              "BJ",
+              "BL",
+              "BM",
+              "BN",
+              "BO",
+              "BQ",
+              "BR",
+              "BS",
+              "BT",
+              "BW",
+              "BY",
+              "BZ",
+              "CA",
+              "CC",
+              "CD",
+              "CF",
+              "CG",
+              "CH",
+              "CI",
+              "CK",
+              "CL",
+              "CM",
+              "CN",
+              "CO",
+              "CR",
+              "CU",
+              "CV",
+              "CW",
+              "CX",
+              "CY",
+              "CZ",
+              "DE",
+              "DJ",
+              "DK",
+              "DM",
+              "DO",
+              "DZ",
+              "EC",
+              "EE",
+              "EG",
+              "EH",
+              "ER",
+              "ES",
+              "ET",
+              "FI",
+              "FJ",
+              "FK",
+              "FM",
+              "FO",
+              "FR",
+              "GA",
+              "GB",
+              "GD",
+              "GE",
+              "GF",
+              "GG",
+              "GH",
+              "GI",
+              "GL",
+              "GM",
+              "GN",
+              "GP",
+              "GQ",
+              "GR",
+              "GS",
+              "GT",
+              "GU",
+              "GW",
+              "GY",
+              "HN",
+              "HR",
+              "HT",
+              "HU",
+              "ID",
+              "IE",
+              "IM",
+              "IN",
+              "IQ",
+              "IR",
+              "IS",
+              "IT",
+              "JE",
+              "JM",
+              "JO",
+              "JP",
+              "KE",
+              "KG",
+              "KH",
+              "KI",
+              "KM",
+              "KN",
+              "KP",
+              "KR",
+              "KW",
+              "KY",
+              "KZ",
+              "LA",
+              "LB",
+              "LC",
+              "LI",
+              "LK",
+              "LR",
+              "LS",
+              "LT",
+              "LU",
+              "LV",
+              "LY",
+              "MA",
+              "MC",
+              "MD",
+              "ME",
+              "MF",
+              "MG",
+              "MH",
+              "MK",
+              "ML",
+              "MM",
+              "MN",
+              "MO",
+              "MP",
+              "MQ",
+              "MR",
+              "MS",
+              "MT",
+              "MU",
+              "MV",
+              "MW",
+              "MX",
+              "MY",
+              "MZ",
+              "NA",
+              "NC",
+              "NE",
+              "NF",
+              "NG",
+              "NI",
+              "NL",
+              "NO",
+              "NP",
+              "NR",
+              "NU",
+              "NZ",
+              "OM",
+              "PA",
+              "PE",
+              "PF",
+              "PG",
+              "PH",
+              "PK",
+              "PL",
+              "PM",
+              "PN",
+              "PR",
+              "PS",
+              "PT",
+              "PW",
+              "PY",
+              "QA",
+              "RE",
+              "RO",
+              "RS",
+              "RU",
+              "RW",
+              "SA",
+              "SB",
+              "SC",
+              "SD",
+              "SE",
+              "SG",
+              "SH",
+              "SI",
+              "SJ",
+              "SK",
+              "SL",
+              "SM",
+              "SN",
+              "SO",
+              "SR",
+              "SS",
+              "ST",
+              "SV",
+              "SX",
+              "SY",
+              "SZ",
+              "TC",
+              "TD",
+              "TF",
+              "TG",
+              "TH",
+              "TJ",
+              "TK",
+              "TL",
+              "TM",
+              "TN",
+              "TO",
+              "TR",
+              "TT",
+              "TV",
+              "TZ",
+              "UA",
+              "UG",
+              "US",
+              "UY",
+              "UZ",
+              "VA",
+              "VC",
+              "VE",
+              "VG",
+              "VI",
+              "VN",
+              "VU",
+              "WF",
+              "WS",
+              "XK",
+              "YE",
+              "YT",
+              "ZA",
+              "ZM",
+              "ZW"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://api.sunrise-sunset.org/json?lat=-0.102&lng=34.762&formatted=0",
+            "sample_title": "Sunrise/sunset: Kisumu, Kenya",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "MET Norway (api.met.no)",
+            "display": "MET Norway (api.met.no)",
+            "host": "api.met.no",
+            "endpoints_in_bucket": 1271,
+            "endpoints_in_pack": 1271,
+            "country_codes": [
+              "AD",
+              "AF",
+              "AG",
+              "AI",
+              "AO",
+              "AS",
+              "AW",
+              "AX",
+              "AZ",
+              "BA",
+              "BB",
+              "BD",
+              "BF",
+              "BG",
+              "BI",
+              "BJ",
+              "BL",
+              "BM",
+              "BN",
+              "BO",
+              "BQ",
+              "BS",
+              "BT",
+              "BW",
+              "BY",
+              "BZ",
+              "CC",
+              "CD",
+              "CF",
+              "CG",
+              "CI",
+              "CK",
+              "CM",
+              "CR",
+              "CU",
+              "CV",
+              "CW",
+              "CX",
+              "CY",
+              "DJ",
+              "DM",
+              "DZ",
+              "EE",
+              "EG",
+              "EH",
+              "ER",
+              "ET",
+              "FJ",
+              "FK",
+              "FM",
+              "FO",
+              "GA",
+              "GD",
+              "GE",
+              "GF",
+              "GG",
+              "GH",
+              "GI",
+              "GL",
+              "GM",
+              "GN",
+              "GP",
+              "GQ",
+              "GS",
+              "GT",
+              "GU",
+              "GW",
+              "GY",
+              "HN",
+              "HT",
+              "IM",
+              "IQ",
+              "IR",
+              "JE",
+              "JM",
+              "JO",
+              "KE",
+              "KH",
+              "KI",
+              "KM",
+              "KN",
+              "KP",
+              "KW",
+              "KY",
+              "KZ",
+              "LA",
+              "LB",
+              "LC",
+              "LI",
+              "LK",
+              "LR",
+              "LS",
+              "LT",
+              "LU",
+              "LY",
+              "MA",
+              "MC",
+              "MD",
+              "ME",
+              "MF",
+              "MG",
+              "MH",
+              "MK",
+              "ML",
+              "MM",
+              "MN",
+              "MO",
+              "MP",
+              "MQ",
+              "MR",
+              "MS",
+              "MT",
+              "MU",
+              "MV",
+              "MW",
+              "MY",
+              "MZ",
+              "NA",
+              "NE",
+              "NF",
+              "NG",
+              "NI",
+              "NP",
+              "NR",
+              "NU",
+              "OM",
+              "PE",
+              "PF",
+              "PG",
+              "PH",
+              "PM",
+              "PN",
+              "PR",
+              "PS",
+              "PW",
+              "PY",
+              "QA",
+              "RE",
+              "RS",
+              "RU",
+              "RW",
+              "SA",
+              "SB",
+              "SC",
+              "SD",
+              "SG",
+              "SH",
+              "SI",
+              "SJ",
+              "SL",
+              "SM",
+              "SO",
+              "SR",
+              "SS",
+              "ST",
+              "SV",
+              "SX",
+              "SY",
+              "SZ",
+              "TC",
+              "TD",
+              "TF",
+              "TJ",
+              "TK",
+              "TL",
+              "TM",
+              "TN",
+              "TO",
+              "TT",
+              "TV",
+              "TZ",
+              "UG",
+              "UZ",
+              "VA",
+              "VC",
+              "VE",
+              "VG",
+              "VI",
+              "VU",
+              "WF",
+              "WS",
+              "YE",
+              "YT",
+              "ZA",
+              "ZM",
+              "ZW"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://api.met.no/weatherapi/sunrise/3.0/sun?lat=-0.102&lon=34.762",
+            "sample_title": "Sunrise/sunset times: Kisumu, Kenya",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "GBIF (Global Biodiversity Information Facility)",
+            "display": "GBIF (Global Biodiversity Information Facility)",
+            "host": "api.gbif.org",
+            "endpoints_in_bucket": 100,
+            "endpoints_in_pack": 100,
+            "country_codes": [
+              "AD",
+              "AO",
+              "AQ",
+              "AZ",
+              "BA",
+              "BB",
+              "BD",
+              "BF",
+              "BG",
+              "BI",
+              "BJ",
+              "BO",
+              "BT",
+              "BW",
+              "BY",
+              "BZ",
+              "CD",
+              "CG",
+              "CI",
+              "CM",
+              "CR",
+              "CU",
+              "CV",
+              "CY",
+              "EE",
+              "ET",
+              "FJ",
+              "FM",
+              "FO",
+              "GA",
+              "GE",
+              "GF",
+              "GH",
+              "GL",
+              "GN",
+              "GT",
+              "GY",
+              "HN",
+              "IM",
+              "IR",
+              "JM",
+              "KE",
+              "KH",
+              "KZ",
+              "LB",
+              "LK",
+              "LR",
+              "LT",
+              "LU",
+              "MA",
+              "ME",
+              "MG",
+              "MK",
+              "MN",
+              "MR",
+              "MT",
+              "MU",
+              "MW",
+              "MY",
+              "MZ",
+              "NA",
+              "NE",
+              "NG",
+              "NI",
+              "NP",
+              "OM",
+              "PE",
+              "PG",
+              "PH",
+              "PR",
+              "PW",
+              "RE",
+              "RS",
+              "RU",
+              "RW",
+              "SB",
+              "SC",
+              "SG",
+              "SI",
+              "SJ",
+              "SO",
+              "SR",
+              "SS",
+              "ST",
+              "SX",
+              "TJ",
+              "TO",
+              "TT",
+              "TZ",
+              "UG",
+              "UZ",
+              "VE",
+              "VI",
+              "VU",
+              "WF",
+              "WS",
+              "YE",
+              "ZA",
+              "ZM",
+              "ZW"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://api.gbif.org/v1/dataset/search?publishingCountry=AD&limit=50",
+            "sample_title": "GBIF datasets published in Andorra",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Nasa",
+            "display": "Nasa",
+            "host": "eonet.gsfc.nasa.gov",
+            "endpoints_in_bucket": 2,
+            "endpoints_in_pack": 2,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&limit=1",
+            "sample_title": "NASA EONET natural events",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-10"
+          },
+          {
+            "service": "Noaa",
+            "display": "Noaa",
+            "host": "services.swpc.noaa.gov",
+            "endpoints_in_bucket": 2,
+            "endpoints_in_pack": 2,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json",
+            "sample_title": "NOAA SWPC space weather JSON",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-10"
+          },
+          {
+            "service": "Microsoft Planetary Computer",
+            "display": "Microsoft Planetary Computer",
+            "host": "planetarycomputer.microsoft.com",
+            "endpoints_in_bucket": 2,
+            "endpoints_in_pack": 264,
+            "country_codes": [],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections",
+            "sample_title": "Microsoft Planetary Computer STAC",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-10"
+          },
+          {
+            "service": "SatNOGS DB & Network API",
+            "display": "SatNOGS DB & Network API",
+            "host": "db.satnogs.org",
+            "endpoints_in_bucket": 2,
+            "endpoints_in_pack": 2,
+            "country_codes": [],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://db.satnogs.org/api/satellites/?format=json&norad_cat_id=25544",
+            "sample_title": "SatNOGS DB API",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-10"
+          },
+          {
+            "service": "The Space Devs Launch Library 2 (LL2)",
+            "display": "The Space Devs Launch Library 2 (LL2)",
+            "host": "ll.thespacedevs.com",
+            "endpoints_in_bucket": 2,
+            "endpoints_in_pack": 2,
+            "country_codes": [],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=1",
+            "sample_title": "Launch Library 2 (The Space Devs)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-10"
+          }
+        ]
+      }
+    },
+    {
+      "id": "app",
+      "emoji": "📱",
+      "name": "App features",
+      "title": "Geology maps: bedrock, surficial deposits, boreholes and geological model layers",
+      "build": "Show the geology under a place on a map: load a bedrock or surficial layer for one area and return unit name, age and rock type for a clicked point.",
+      "filter": {
+        "or": [
+          {
+            "text": "geolog|geologic|bedrock|surficial|borehole|drill|stratigra|lithol|mineral|\\brocks\\b|rock types?|fault|fossil|quaternary|sediment|geophys|gravity|magnet|seism|isopach|isohyps|\\bformations?\\b|\\bfm\\b|aquifer|karst|cave|geosite|geotop|geomorph|tectonic|ondergrond|boring|grondwater|geologi|geología|geologia|geologie|bodem|soil"
+          },
+          {
+            "urlMatches": "www\\.dov\\.vlaanderen\\.be/"
+          }
+        ]
+      },
+      "filter_text": "title or subcategory matches /geolog|geologic|bedrock|surficial|borehole|drill|stratigra|lithol|mineral|\\brocks\\b|rock types?|fault|fossil|quaternary|sediment|geophys|gravity|magnet|seism|isopach|isohyps|\\bformations?\\b|\\bfm\\b|aquifer|karst|cave|geosite|geotop|geomorph|tectonic|ondergrond|boring|grondwater|geologi|geología|geologia|geologie|bodem|soil/i OR url matches /www\\.dov\\.vlaanderen\\.be//i",
+      "fallback": false,
+      "notes": [
+        {
+          "count": 5220,
+          "text": "come from the Flemish subsurface service (dov.vlaanderen.be): geological model layers as WFS feature requests or KML exports."
+        }
+      ],
+      "count": 12574,
+      "services_matching": 1047,
+      "country_codes_matching": 61,
+      "formats_matching": 5,
+      "example": {
+        "url": "https://www.dov.vlaanderen.be/geoserver-inspire/boreholelogging/wfs?SERVICE=WFS&version=2.0.0&request=GetFeature&count=1&typeName=boreholeLogging",
+        "title": "INSPIRE harmonized - Drill hole measurements",
+        "service": "DOV Flanders subsoil / water",
+        "last_tested": "2026-11-14"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `title matches /geolog|bedrock|surficial|borehole|drill|fault/i AND NOT url matches ///(services[0-9]*(-[a-z0-9]+)?|utility)\\.arcgis\\.com//i`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 1040,
+        "services": [
+          {
+            "service": "DOV Flanders subsoil / water",
+            "display": "DOV Flanders subsoil / water",
+            "host": "www.dov.vlaanderen.be",
+            "endpoints_in_bucket": 5220,
+            "endpoints_in_pack": 5220,
+            "country_codes": [
+              "BE"
+            ],
+            "formats": [
+              "xml"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://www.dov.vlaanderen.be/geoserver-inspire/boreholelogging/wfs?SERVICE=WFS&version=2.0.0&request=GetFeature&count=1&typeName=boreholeLogging",
+            "sample_title": "INSPIRE harmonized - Drill hole measurements",
+            "sample_format": "xml",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Genenames",
+            "display": "Genenames",
+            "host": "rest.genenames.org",
+            "endpoints_in_bucket": 1000,
+            "endpoints_in_pack": 1000,
+            "country_codes": [
+              "GB"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://rest.genenames.org/fetch/hgnc_id/10522",
+            "sample_title": "HUGO Gene Nomenclature Committee (HGNC): HGNC REST",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "US West 2 (AWS)",
+            "display": "US West 2 (AWS)",
+            "host": "asc-jupiter.s3.us-west-2.amazonaws.com",
+            "endpoints_in_bucket": 663,
+            "endpoints_in_pack": 663,
+            "country_codes": [],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://asc-jupiter.s3.us-west-2.amazonaws.com/catalog.json",
+            "sample_title": "USGS Astrogeology Provided Analysis Ready Data (STAC asc-stacbrowser.s3-website-us-west-2.amazonaws.com): STAC static Catalog JSON",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "US West 2 (AWS)",
+            "display": "US West 2 (AWS)",
+            "host": "asc-mars.s3.us-west-2.amazonaws.com",
+            "endpoints_in_bucket": 474,
+            "endpoints_in_pack": 474,
+            "country_codes": [],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://asc-mars.s3.us-west-2.amazonaws.com/catalog.json",
+            "sample_title": "USGS Astrogeology Provided Analysis Ready Data (STAC asc-stacbrowser.s3-website-us-west-2.amazonaws.com): STAC static Catalog JSON",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Usgs",
+            "display": "Usgs",
+            "host": "data.usgs.gov",
+            "endpoints_in_bucket": 337,
+            "endpoints_in_pack": 471,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "xml"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://data.usgs.gov/datacatalog/metadata/USGS.08212a9c-8c6c-4e5e-8bff-71e8dc9eeee7.xml",
+            "sample_title": "Structural Geology of the Mosier Creek Basin - Original Metadata",
+            "sample_format": "xml",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Canadian Urban Data Catalogue (CUDC)",
+            "display": "Canadian Urban Data Catalogue (CUDC)",
+            "host": "geodiscover.alberta.ca",
+            "endpoints_in_bucket": 334,
+            "endpoints_in_pack": 361,
+            "country_codes": [
+              "CA"
+            ],
+            "formats": [
+              "xml"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://geodiscover.alberta.ca/geoportal/rest/metadata/item/07e6ff10ce284b74bd384f89cbba96d3/xml",
+            "sample_title": "Surficial Geology, Alberta Foothills and Rocky Mountains (GIS data, polygon features) - Surficial Geology, Alberta Foothills and Rocky Mountains (GIS data, polygon features) - (XML)",
+            "sample_format": "xml",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Admin",
+            "display": "Admin",
+            "host": "data.geo.admin.ch",
+            "endpoints_in_bucket": 120,
+            "endpoints_in_pack": 959,
+            "country_codes": [
+              "CH"
+            ],
+            "formats": [
+              "geojson",
+              "json"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://data.geo.admin.ch/api/stac/v1/collections/ch.agroscope.abschaetzung-organische_boeden",
+            "sample_title": "data.geo.admin.ch (STAC API data.geo.admin.ch): STAC API collection metadata JSON",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Journalijpss",
+            "display": "Journalijpss",
+            "host": "journalijpss.com",
+            "endpoints_in_bucket": 118,
+            "endpoints_in_pack": 118,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "xml"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://journalijpss.com/index.php/index/oai?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:ojs.pkp.sfu.ca:article/1",
+            "sample_title": "International Journal of Plant & Soil Science: OAI-PMH record",
+            "sample_format": "xml",
+            "sample_last_tested": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grounding",
+      "emoji": "🧠",
+      "name": "Grounding and data pipelines",
+      "title": "Research projects, biodiversity datasets and science statistics for scheduled loads",
+      "build": "Load research-project lists, R&D statistics and biodiversity dataset searches on a schedule into your own store, so answers about who studies what cite a dated source.",
+      "filter": {
+        "or": [
+          {
+            "titleMatches": "research|scien|wissenschaft|r&d|patent|cordis|biodivers|gbif|genom|experiment|physics|replication data"
+          },
+          {
+            "subcategoryMatches": "· (research|science|scientific)$|GBIF"
+          }
+        ]
+      },
+      "filter_text": "title matches /research|scien|wissenschaft|r&d|patent|cordis|biodivers|gbif|genom|experiment|physics|replication data/i OR subcategory matches /· (research|science|scientific)$|GBIF/i",
+      "fallback": false,
+      "notes": [],
+      "count": 54693,
+      "services_matching": 1404,
+      "country_codes_matching": 159,
+      "formats_matching": 6,
+      "example": {
+        "url": "https://api.gbif.org/v1/dataset/search?publishingCountry=AD&limit=50",
+        "title": "GBIF datasets published in Andorra",
+        "service": "GBIF (Global Biodiversity Information Facility)",
+        "last_tested": "2026-11-14"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `NOT url matches ///(services[0-9]*(-[a-z0-9]+)?|utility)\\.arcgis\\.com//i AND title matches /r&d|researchers|research projects|patent|cordis|gbif|replication data/i`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 1396,
+        "services": [
+          {
+            "service": "Alliancegenome",
+            "display": "Alliancegenome",
+            "host": "www.alliancegenome.org",
+            "endpoints_in_bucket": 1000,
+            "endpoints_in_pack": 1000,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://www.alliancegenome.org/api/gene/HGNC:1001",
+            "sample_title": "Alliance of Genome Resources: Alliance API",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Pangaea",
+            "display": "Pangaea",
+            "host": "doi.pangaea.de",
+            "endpoints_in_bucket": 999,
+            "endpoints_in_pack": 999,
+            "country_codes": [
+              "DE"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://doi.pangaea.de/10.1594/PANGAEA.50003?format=metadata_jsonld",
+            "sample_title": "PANGAEA Data Publisher for Earth & Environmental Science (AWI/MARUM): PANGAEA dataset metadata JSON-LD (schema.org/Croissant)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "OpenAlex",
+            "display": "OpenAlex",
+            "host": "api.openalex.org",
+            "endpoints_in_bucket": 999,
+            "endpoints_in_pack": 999,
+            "country_codes": [],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://api.openalex.org/institutions/I100005738",
+            "sample_title": "OurResearch (OpenAlex): OpenAlex institutions entity",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "UNESCO Open Science",
+            "display": "UNESCO Open Science",
+            "host": "open-science.unesco.org",
+            "endpoints_in_bucket": 999,
+            "endpoints_in_pack": 999,
+            "country_codes": [],
+            "formats": [
+              "json",
+              "xml"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://open-science.unesco.org/api/communities?size=10",
+            "sample_title": "UNESCO Open Science Platform: Invenio REST API",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Ror",
+            "display": "Ror",
+            "host": "api.ror.org",
+            "endpoints_in_bucket": 998,
+            "endpoints_in_pack": 998,
+            "country_codes": [
+              "AL",
+              "AM",
+              "AT",
+              "AU",
+              "BA",
+              "BE",
+              "BG",
+              "BI",
+              "BR",
+              "BY",
+              "CA",
+              "CH",
+              "CL",
+              "CN",
+              "CR",
+              "CY",
+              "CZ",
+              "DE",
+              "DK",
+              "EE",
+              "EG",
+              "ES",
+              "FI",
+              "FR",
+              "GA",
+              "GB",
+              "GR",
+              "HU",
+              "IE",
+              "IL",
+              "IN",
+              "IT",
+              "JP",
+              "KH",
+              "KR",
+              "LT",
+              "LU",
+              "ML",
+              "NL",
+              "NO",
+              "PH",
+              "PL",
+              "PT",
+              "PW",
+              "RO",
+              "RU",
+              "SE",
+              "SG",
+              "SK",
+              "SS",
+              "SZ",
+              "TW",
+              "UA",
+              "US",
+              "UZ",
+              "VN",
+              "ZM"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://api.ror.org/v2/organizations/000a2sx58",
+            "sample_title": "ROR (Research Organization Registry): ROR API v2 organization",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Mcw",
+            "display": "Mcw",
+            "host": "rest.rgd.mcw.edu",
+            "endpoints_in_bucket": 998,
+            "endpoints_in_pack": 998,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://rest.rgd.mcw.edu/rgdws/genes/11380980",
+            "sample_title": "Rat Genome Database (Medical College of Wisconsin): RGD REST API",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Sciencebase",
+            "display": "Sciencebase",
+            "host": "www.sciencebase.gov",
+            "endpoints_in_bucket": 997,
+            "endpoints_in_pack": 997,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://www.sciencebase.gov/catalog/item/5910a984e4b0e541a03ac848?format=json",
+            "sample_title": "USGS ScienceBase: ScienceBase data item JSON (metadata+file links)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Nasa",
+            "display": "Nasa",
+            "host": "osdr.nasa.gov",
+            "endpoints_in_bucket": 978,
+            "endpoints_in_pack": 978,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://osdr.nasa.gov/osdr/data/osd/files/1",
+            "sample_title": "NASA Open Science Data Repository (GeneLab/ALSDA): OSDR study file listing JSON",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evals",
+      "emoji": "🧪",
+      "name": "Evals and testing",
+      "title": "Feature requests, JSON lookups and files to test a science tool",
+      "build": "Run your science tool against a fixed set of URLs across formats (XML feature requests, KML, JSON and CSV); check that times, coordinates and attribute values parse, and keep last_tested as the baseline for your own re-tests.",
+      "filter": {
+        "whole": true
+      },
+      "filter_text": "the whole pack",
+      "fallback": false,
+      "notes": [],
+      "count": 384890,
+      "services_matching": 6223,
+      "country_codes_matching": 248,
+      "formats_matching": 6,
+      "example": {
+        "url": "https://www.dov.vlaanderen.be/geoserver-inspire/biologicalparameter/wfs?SERVICE=WFS&version=2.0.0&request=GetFeature&count=1&typeName=biologicalParameter",
+        "title": "INSPIRE harmonized - Biological parameter",
+        "service": "DOV Flanders subsoil / water",
+        "last_tested": "2026-11-14"
+      },
+      "recommended": {
+        "criteria": "Services in this pack that returned the most different formats, then the most endpoints that passed a data call, then by name: a mix of response shapes to test parsers and tool calls. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `NOT url matches ///(services[0-9]*(-[a-z0-9]+)?|utility)\\.arcgis\\.com//i`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 2399,
+        "services": [
+          {
+            "service": "Brno",
+            "display": "Brno",
+            "host": "data.brno.cz",
+            "endpoints_in_bucket": 46,
+            "endpoints_in_pack": 46,
+            "country_codes": [
+              "CZ"
+            ],
+            "formats": [
+              "json",
+              "csv",
+              "zip",
+              "geojson",
+              "xml"
+            ],
+            "formats_in_pack": 5,
+            "sample_url": "https://data.brno.cz/api/download/v1/items/02c368dbf3864e20bf9bd8813af4a860/featureCollection?layers=0",
+            "sample_title": "Geological risks - Complex foundation conditions",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Canada",
+            "display": "Canada",
+            "host": "open.canada.ca",
+            "endpoints_in_bucket": 150,
+            "endpoints_in_pack": 150,
+            "country_codes": [
+              "CA"
+            ],
+            "formats": [
+              "csv",
+              "json",
+              "txt",
+              "xml"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://open.canada.ca/data/api/3/action/datastore_search?resource_id=1aaad66a-3af1-4699-9523-5d7d89971016&limit=1",
+            "sample_title": "TOPIC Open - Literature Review Module - List of scientific references used",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "OpenData Milano",
+            "display": "OpenData Milano",
+            "host": "dati.comune.milano.it",
+            "endpoints_in_bucket": 132,
+            "endpoints_in_pack": 132,
+            "country_codes": [
+              "IT"
+            ],
+            "formats": [
+              "csv",
+              "json",
+              "zip",
+              "geojson"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://dati.comune.milano.it/api/3/action/datastore_search?resource_id=34305cd7-5b14-4bf6-afe5-a7d8b6374488&limit=1",
+            "sample_title": "Milan observatory - Goals, Innovation and startups - ds662_OB8_innovation startups_ENG_dim2_university research_od.csv",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "geo.sv.rostock.de",
+            "display": "geo.sv.rostock.de",
+            "host": "geo.sv.rostock.de",
+            "endpoints_in_bucket": 56,
+            "endpoints_in_pack": 56,
+            "country_codes": [
+              "DE"
+            ],
+            "formats": [
+              "xml",
+              "csv",
+              "geojson",
+              "json"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://geo.sv.rostock.de/download/opendata/hoch_anstehendes_grundwasser/hoch_anstehendes_grundwasser.json",
+            "sample_title": "Hoch anstehendes Grundwasser",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Public",
+            "display": "Public",
+            "host": "download.data.public.lu",
+            "endpoints_in_bucket": 23,
+            "endpoints_in_pack": 23,
+            "country_codes": [
+              "LU"
+            ],
+            "formats": [
+              "geojson",
+              "csv",
+              "json",
+              "zip"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://download.data.public.lu/resources/3d-photogrammetric-scans-of-early-jurassic-ammonites-from-gasperich-luxembourg/20260827-141028/3d-photogrammetric-scans-of-early-jurassic-ammonites-from-gasperich-luxembourg.csv",
+            "sample_title": "3D Photogrammetric Scans of Early Jurassic Ammonites from Gasperich, Luxembourg",
+            "sample_format": "csv",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Austintexas",
+            "display": "Austintexas",
+            "host": "data.austintexas.gov",
+            "endpoints_in_bucket": 7,
+            "endpoints_in_pack": 7,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "xml",
+              "json",
+              "csv",
+              "zip"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://data.austintexas.gov/api/views/9883-ztc6/rows.json?accessType=DOWNLOAD",
+            "sample_title": "GEOSCIENTIFICINFORMATION.ed_aq_contribute_zone - JSON File",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Zenodo",
+            "display": "Zenodo",
+            "host": "zenodo.org",
+            "endpoints_in_bucket": 948,
+            "endpoints_in_pack": 948,
+            "country_codes": [
+              "CH",
+              "DE"
+            ],
+            "formats": [
+              "json",
+              "txt",
+              "csv"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://zenodo.org/records/20441449/files/NExT_Reuse_PublicAdmin_SurveyDataset_2025.CSV?download=1",
+            "sample_title": "Survey dataset on reuse in public administration (Germany, 2025)",
+            "sample_format": "csv",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "opendata.schleswig-holstein.de",
+            "display": "opendata.schleswig-holstein.de",
+            "host": "opendata.schleswig-holstein.de",
+            "endpoints_in_bucket": 560,
+            "endpoints_in_pack": 560,
+            "country_codes": [
+              "DE"
+            ],
+            "formats": [
+              "csv",
+              "json",
+              "txt"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://opendata.schleswig-holstein.de/dataset/2e649817-9bb7-4404-8a64-35654bf3569d/resource/0d0ad3b1-712e-4b37-b62a-71ae51674e58/download/studierende-ws20-21.json",
+            "sample_title": "Students by degree type, gender and university of applied sciences 2020/2021",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "q": "When are sunrise and sunset today in a given city?",
+      "filter": "url contains \"api.sunrise-sunset.org/json?lat=\"",
+      "url": "https://api.sunrise-sunset.org/json?lat=-0.102&lng=34.762&formatted=0",
+      "title": "Sunrise/sunset: Kisumu, Kenya",
+      "service": "Sunrise-Sunset.org",
+      "last_tested": "2026-11-14",
+      "matching": 1478
+    },
+    {
+      "q": "What is the latest planetary K-index (geomagnetic activity)?",
+      "filter": "url contains \"services.swpc.noaa.gov/products/noaa-planetary-k-index.json\"",
+      "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json",
+      "title": "NOAA SWPC space weather JSON",
+      "service": "Noaa",
+      "last_tested": "2026-11-10",
+      "matching": 1
+    },
+    {
+      "q": "Which biodiversity datasets are published from a given country?",
+      "filter": "url contains \"api.gbif.org/v1/dataset/search?publishingCountry=\"",
+      "url": "https://api.gbif.org/v1/dataset/search?publishingCountry=AD&limit=50",
+      "title": "GBIF datasets published in Andorra",
+      "service": "GBIF (Global Biodiversity Information Facility)",
+      "last_tested": "2026-11-14",
+      "matching": 100
+    }
+  ],
+  "preview_focused": true,
+  "preview": [
+    {
+      "title": "INSPIRE harmonized - Biological parameter",
+      "service": "DOV Flanders subsoil / water",
+      "country": "BE",
+      "category": "Science",
+      "subcategory": "",
+      "format": "xml",
+      "tags": "science|maps|no-key|xml",
+      "last_tested": "2026-11-14",
+      "host": "www.dov.vlaanderen.be",
+      "url": "https://www.dov.vlaanderen.be/geoserver-inspire/biologicalparameter/wfs?SERVICE=WFS&version=2.0.0&request=GetFeature&count=1&typeName=biologicalParameter"
+    },
+    {
+      "title": "Sunrise/sunset: Kisumu, Kenya",
+      "service": "Sunrise-Sunset.org",
+      "country": "KE",
+      "category": "Science",
+      "subcategory": "",
+      "format": "json",
+      "tags": "science|no-key|json|agent-ready",
+      "last_tested": "2026-11-14",
+      "host": "api.sunrise-sunset.org",
+      "url": "https://api.sunrise-sunset.org/json?lat=-0.102&lng=34.762&formatted=0"
+    },
+    {
+      "title": "Sunrise/sunset times: Kisumu, Kenya",
+      "service": "MET Norway (api.met.no)",
+      "country": "KE",
+      "category": "Science",
+      "subcategory": "",
+      "format": "json",
+      "tags": "science|weather|no-key|json|agent-ready",
+      "last_tested": "2026-11-14",
+      "host": "api.met.no",
+      "url": "https://api.met.no/weatherapi/sunrise/3.0/sun?lat=-0.102&lon=34.762"
+    },
+    {
+      "title": "Alliance of Genome Resources: Alliance API",
+      "service": "Alliancegenome",
+      "country": "US",
+      "category": "Science",
+      "subcategory": "",
+      "format": "json",
+      "tags": "science|no-key|json|agent-ready",
+      "last_tested": "2026-11-15",
+      "host": "www.alliancegenome.org",
+      "url": "https://www.alliancegenome.org/api/gene/HGNC:1001"
+    },
+    {
+      "title": "New Zealand Coastal Elevation (STAC nz-coastal.s3.ap-southeast-2.amazonaws.com): STAC static Item JSON",
+      "service": "Ap Southeast 2 (AWS)",
+      "country": "NZ",
+      "category": "Science",
+      "subcategory": "",
+      "format": "json",
+      "tags": "science|elevation|no-key|json|agent-ready",
+      "last_tested": "2026-11-15",
+      "host": "nz-coastal.s3.ap-southeast-2.amazonaws.com",
+      "url": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/auckland/mangawhai-to-snells_2025/dem_10m/2193/AY31.json"
+    }
+  ],
+  "limits": [
+    {
+      "id": "skew",
+      "text": "28.5% of rows carry country code IN; 41,721 rows have no code (global or unknown)."
+    },
+    {
+      "id": "stats-meta",
+      "text": "25 rows come from PxWeb or Statistics Canada services. Some statistics endpoints return metadata or a pointer on GET; the table may need a second request or a POST."
+    },
+    {
+      "id": "record-count",
+      "text": "5,354 rows are map-layer queries with resultRecordCount set: the tested call asked for a few records; change the query to get the full layer."
+    },
+    {
+      "id": "limit-1",
+      "text": "195 rows carry limit=1: the tested call asked for one record; raise the limit or page through."
+    },
+    {
+      "id": "portal",
+      "text": "1 rows are open-data portal dataset records, which may return a dataset record with links rather than the table itself."
+    },
+    {
+      "id": "files",
+      "text": "241 rows are files (zip 146, txt 95) rather than bodies an agent reads directly."
+    },
+    {
+      "id": "roots",
+      "text": "3 rows are service root addresses (the host alone or an API or version path such as /v1, with no query), which may describe the service rather than return data; the sample, examples and recommended lists use other rows first."
+    },
+    {
+      "id": "arcgis-online",
+      "text": "4,623 rows are layers on ArcGIS Online, where anyone can publish: some are class projects, tests or copies. Check the owner and the fields before you rely on one."
+    },
+    {
+      "id": "pack",
+      "text": "5,220 rows come from one service, the Flemish subsurface service (dov.vlaanderen.be): geological model layers as WFS requests for one feature (`count=1`) or KML exports. Raise `count` for more features."
+    },
+    {
+      "id": "pack",
+      "text": "2,749 rows are sunrise and sunset queries for one city each, from api.sunrise-sunset.org and api.met.no; the tested URLs carry no date, so add one for a given day."
+    },
+    {
+      "id": "pack",
+      "text": "281,800 rows sit in the science category but have no science term in the title or subcategory. Check the title before you use one; they are not used as starting points."
+    },
+    {
+      "id": "pack",
+      "text": "854 rows are about WiFi, internet use, digital services, telecoms, town planning, buildings, food, shops, study programmes or residence permits for study rather than science."
+    },
+    {
+      "id": "pack",
+      "text": "137 rows carry the subcategory label \"astronom\" or \"genom\" (cut from words such as gastronomy) but are about restaurants, breweries, regional food products, milk production or packaging. They are not used as starting points."
+    },
+    {
+      "id": "pack",
+      "text": "62 rows are map layers whose subcategory names schools, libraries, substations or pipelines; check the title before you use one. They are not used as starting points."
+    },
+    {
+      "id": "pack",
+      "text": "42 rows from Canadian hosts (.ca) carry country code US or GB in this snapshot; filter by host when you need Canada only."
+    },
+    {
+      "id": "quiet",
+      "text": "Stations and feeds can go quiet after their test date; re-test a URL before you rely on it."
+    },
+    {
+      "id": "not-in",
+      "text": "Not in this pack: endpoints that need a key or a POST, and URLs that did not pass."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 478 rows with a private or local address."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 15 rows with an email-like address."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 257 ArcGIS Survey123 layers (they can hold people's form answers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 4 layers marked editable in the title (they can hold entries that people added)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 34 ArcGIS layers that keep a form's default service name (they can hold people's form answers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 86 rows that passed a data call only from a network location in India."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 39 ArcGIS class or coursework layers (lab, assignment, exam, quiz, lesson, exercise, tutorial and final-project layers, copies of class layers, layers named for a person or a person's home, and layers whose name ends in a person's name or holds a student number)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 2 ArcGIS layers that hold reports, comments, submissions or form responses sent in by the public."
+    }
+  ],
+  "name": "380k-science-apis-for-agents",
+  "old_name": "science-api-endpoints",
+  "services_tested": {
+    "services": 6222,
+    "tested": 1418098,
+    "passed": 1221592,
+    "passed_pct": 86,
+    "line": "Across these services: 1.4M tested · 86% passed a keyless call",
+    "note": "Counted over the 6,222 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+  },
+  "overlaps": [
+    {
+      "repo": "weather-api-endpoints",
+      "name": "190k-weather-apis-for-agents",
+      "title": "Weather API endpoints",
+      "shared": 3348
+    },
+    {
+      "repo": "transit-api-endpoints",
+      "name": "270k-transit-apis-for-agents",
+      "title": "Transit API endpoints",
+      "shared": 133
+    },
+    {
+      "repo": "water-api-endpoints",
+      "name": "270k-water-apis-for-agents",
+      "title": "Rivers and water API endpoints",
+      "shared": 6521
+    },
+    {
+      "repo": "finance-economy-api-endpoints",
+      "name": "130k-finance-economy-apis-for-agents",
+      "title": "Finance and economy API endpoints",
+      "shared": 5730
+    },
+    {
+      "repo": "india-api-endpoints",
+      "name": "130k-india-apis-for-agents",
+      "title": "India API endpoints",
+      "shared": 109513
+    },
+    {
+      "repo": "government-open-data-api-endpoints",
+      "name": "1.3m-government-open-data-apis",
+      "title": "Government open data API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "statistics-api-endpoints",
+      "name": "290k-statistics-apis-for-agents",
+      "title": "Statistics and census API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "oceans-api-endpoints",
+      "name": "86k-oceans-apis-for-agents",
+      "title": "Ocean and marine API endpoints",
+      "shared": 3814
+    },
+    {
+      "repo": "maritime-api-endpoints",
+      "name": "24k-maritime-apis-for-agents",
+      "title": "Maritime API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "environment-api-endpoints",
+      "name": "170k-environment-apis-for-agents",
+      "title": "Environment API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "air-quality-api-endpoints",
+      "name": "20k-air-quality-apis-for-agents",
+      "title": "Air quality API endpoints",
+      "shared": 86
+    },
+    {
+      "repo": "maps-gis-api-endpoints",
+      "name": "380k-maps-gis-apis-for-agents",
+      "title": "Maps and GIS API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "agent-ready-api-endpoints",
+      "name": "2.5m-agent-ready-apis",
+      "title": "Agent-ready API endpoints",
+      "shared": 206647
+    },
+    {
+      "repo": "health-api-endpoints",
+      "name": "96k-health-apis-for-agents",
+      "title": "Health API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "hazards-api-endpoints",
+      "name": "53k-hazards-apis-for-agents",
+      "title": "Hazards and alerts API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "wildfire-api-endpoints",
+      "name": "6.5k-wildfire-apis-for-agents",
+      "title": "Wildfire API endpoints",
+      "shared": 152
+    },
+    {
+      "repo": "energy-api-endpoints",
+      "name": "72k-energy-apis-for-agents",
+      "title": "Energy API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "aviation-api-endpoints",
+      "name": "25k-aviation-apis-for-agents",
+      "title": "Aviation API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "traffic-api-endpoints",
+      "name": "24k-traffic-apis-for-agents",
+      "title": "Traffic and roadworks API endpoints",
+      "shared": 61
+    },
+    {
+      "repo": "parking-api-endpoints",
+      "name": "12k-parking-apis-for-agents",
+      "title": "Parking API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "earthquake-api-endpoints",
+      "name": "10k-earthquake-apis-for-agents",
+      "title": "Earthquake API endpoints",
+      "shared": 100
+    },
+    {
+      "repo": "volcano-tsunami-api-endpoints",
+      "name": "5.2k-volcano-tsunami-apis-for-agents",
+      "title": "Volcano and tsunami API endpoints",
+      "shared": 79
+    },
+    {
+      "repo": "bike-share-api-endpoints",
+      "name": "17k-bike-share-apis-for-agents",
+      "title": "Bike-share API endpoints",
+      "shared": 0
+    }
+  ],
+  "pack_count": 24,
+  "services_file_rows": 6223,
+  "sample_mix": [
+    {
+      "source": "DOV Flanders subsoil / water (www.dov.vlaanderen.be)",
+      "focus_rows": 5220,
+      "sample_rows": 39
+    },
+    {
+      "source": "ArcGIS Online layers",
+      "focus_rows": 3841,
+      "sample_rows": 29
+    },
+    {
+      "source": "Sunrise-Sunset.org (api.sunrise-sunset.org)",
+      "focus_rows": 1478,
+      "sample_rows": 12
+    },
+    {
+      "source": "MET Norway (api.met.no)",
+      "focus_rows": 1271,
+      "sample_rows": 10
+    },
+    {
+      "source": "Alliancegenome (www.alliancegenome.org)",
+      "focus_rows": 1000,
+      "sample_rows": 9
+    },
+    {
+      "source": "Ap Southeast 2 (AWS) (nz-coastal.s3.ap-southeast-2.amazonaws.com)",
+      "focus_rows": 1000,
+      "sample_rows": 9
+    },
+    {
+      "source": "Ap Southeast 2 (AWS) (nz-elevation.s3.ap-southeast-2.amazonaws.com)",
+      "focus_rows": 1000,
+      "sample_rows": 9
+    },
+    {
+      "source": "Ap Southeast 2 (AWS) (nz-imagery.s3.ap-southeast-2.amazonaws.com)",
+      "focus_rows": 1000,
+      "sample_rows": 9
+    },
+    {
+      "source": "Bertt (Github) (bertt.github.io)",
+      "focus_rows": 1000,
+      "sample_rows": 9
+    },
+    {
+      "source": "Fmi (pta.data.lit.fmi.fi)",
+      "focus_rows": 1000,
+      "sample_rows": 9
+    }
+  ],
+  "sample_focus_rows": 102756,
+  "sample_rule": "1,000 rows, or one third of the pack rounded down, whichever is smaller",
+  "files": [
+    {
+      "name": "data/Science_API_Services_AgentPopulation.csv",
+      "rows": 6223,
+      "bytes": 266191,
+      "sha256": "bfa1bf1b0a0a729904f0dfc698d19a05b5fdda65dd91b6ec68a4c3a6342acd22"
+    },
+    {
+      "name": "data/Science_API_Endpoints_AgentPopulation_Sample.csv",
+      "rows": 1000,
+      "bytes": 265627,
+      "sha256": "a802be28b3617cc7523664cca0babc765e62dee157dd7d2cb11db389a6899611"
+    },
+    {
+      "name": "data/Science_API_Endpoints_AgentPopulation_Sample.json",
+      "rows": 1000,
+      "bytes": 454858,
+      "sha256": "b741010febfdc365efbbfc25cb2619675eabc7a352d8abf0fbf2a473d24ccb9a"
+    }
+  ],
+  "release_asset": {
+    "name": "Science_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+    "rows": 384890,
+    "bytes": 9216496,
+    "raw_bytes": 94389855,
+    "sha256": "b10132b6fb35efc891dca8444da7947399e3c55de23cfbd46b3a79396a21a0e6",
+    "url": "https://github.com/agentpopulation/380k-science-apis-for-agents/releases/latest/download/Science_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz"
+  },
+  "release_tag": "snapshot-2026-11-15",
+  "description": "384,890 science API endpoints that passed a keyless data call. For agent tools, apps, pipelines and evals. CSV, CC BY 4.0.",
+  "readme_ap_share": 0.089,
+  "country_counts": {
+    "IN": 109513,
+    "": 41721,
+    "US": 41174,
+    "DE": 10446,
+    "UA": 9874,
+    "BR": 9772,
+    "PE": 9761,
+    "CO": 9720,
+    "ID": 9639,
+    "CA": 8310,
+    "TR": 7401,
+    "CH": 7195,
+    "GB": 6413,
+    "BE": 5675,
+    "ES": 5659,
+    "PT": 4875,
+    "AR": 4053,
+    "NZ": 3897,
+    "EU": 3860,
+    "IT": 3468,
+    "EC": 3319,
+    "PL": 3148,
+    "ZA": 3082,
+    "CZ": 2881,
+    "KE": 2761,
+    "NO": 2561,
+    "AU": 2538,
+    "FI": 2427,
+    "JP": 2027,
+    "MX": 1902,
+    "SE": 1709,
+    "IO": 1640,
+    "AT": 1634,
+    "BY": 1506,
+    "CR": 1483,
+    "DZ": 1399,
+    "FR": 1385,
+    "NG": 1320,
+    "SV": 1284,
+    "RS": 1258,
+    "RU": 1258,
+    "TH": 1257,
+    "HU": 1157,
+    "TZ": 1057,
+    "CL": 1055,
+    "LT": 1049,
+    "AI": 1006,
+    "MD": 943,
+    "NP": 918,
+    "KZ": 874,
+    "GH": 819,
+    "NL": 808,
+    "RO": 775,
+    "PA": 768,
+    "IE": 745,
+    "UG": 736,
+    "ZW": 729,
+    "GR": 718,
+    "CY": 561,
+    "BD": 539,
+    "SG": 518,
+    "MY": 508,
+    "CU": 506,
+    "BW": 494,
+    "BG": 486,
+    "ET": 465,
+    "IQ": 435,
+    "LK": 419,
+    "KR": 407,
+    "MW": 383,
+    "PK": 374,
+    "MK": 366,
+    "SD": 357,
+    "PH": 331,
+    "PS": 331,
+    "DO": 304,
+    "PY": 271,
+    "EE": 270,
+    "SK": 262,
+    "UY": 250,
+    "EG": 222,
+    "QA": 220,
+    "AE": 216,
+    "LS": 216,
+    "KW": 215,
+    "IS": 208,
+    "NA": 202,
+    "BO": 191,
+    "VE": 189,
+    "RW": 185,
+    "SY": 181,
+    "MA": 178,
+    "HN": 165,
+    "IR": 149,
+    "YE": 149,
+    "CN": 129,
+    "CD": 84,
+    "VN": 75,
+    "UZ": 62,
+    "LY": 50,
+    "BA": 48,
+    "GE": 48,
+    "SI": 46,
+    "LU": 45,
+    "ME": 42,
+    "NI": 41,
+    "AO": 39,
+    "CG": 38,
+    "AF": 37,
+    "HK": 37,
+    "SM": 37,
+    "DK": 36,
+    "TW": 35,
+    "GT": 29,
+    "HR": 29,
+    "LV": 29,
+    "CV": 28,
+    "BZ": 25,
+    "JM": 23,
+    "VC": 21,
+    "FO": 20,
+    "PR": 20,
+    "AZ": 19,
+    "BI": 19,
+    "BN": 19,
+    "CM": 19,
+    "GA": 19,
+    "KH": 19,
+    "MM": 19,
+    "PW": 19,
+    "SS": 19,
+    "TT": 19,
+    "ZM": 19,
+    "BF": 18,
+    "BJ": 18,
+    "BT": 18,
+    "CI": 18,
+    "FJ": 18,
+    "FM": 18,
+    "GL": 18,
+    "GN": 18,
+    "GY": 18,
+    "IM": 18,
+    "LB": 18,
+    "LR": 18,
+    "MG": 18,
+    "ML": 18,
+    "MN": 18,
+    "MR": 18,
+    "MT": 18,
+    "MU": 18,
+    "MZ": 18,
+    "NE": 18,
+    "OM": 18,
+    "PG": 18,
+    "SB": 18,
+    "SC": 18,
+    "SO": 18,
+    "SR": 18,
+    "SZ": 18,
+    "TJ": 18,
+    "TO": 18,
+    "VU": 18,
+    "WS": 18,
+    "AX": 17,
+    "BS": 17,
+    "CF": 17,
+    "DJ": 17,
+    "DM": 17,
+    "ER": 17,
+    "GF": 17,
+    "GM": 17,
+    "GQ": 17,
+    "GW": 17,
+    "HT": 17,
+    "JO": 17,
+    "KI": 17,
+    "KM": 17,
+    "KP": 17,
+    "KY": 17,
+    "LA": 17,
+    "LC": 17,
+    "MH": 17,
+    "MV": 17,
+    "PF": 17,
+    "RE": 17,
+    "SA": 17,
+    "SL": 17,
+    "TD": 17,
+    "TL": 17,
+    "TM": 17,
+    "TN": 17,
+    "EH": 16,
+    "GP": 16,
+    "MQ": 16,
+    "ST": 16,
+    "YT": 16,
+    "AS": 15,
+    "GD": 15,
+    "GU": 15,
+    "AD": 14,
+    "AL": 14,
+    "BB": 14,
+    "GG": 14,
+    "AG": 13,
+    "KN": 13,
+    "TV": 13,
+    "AM": 12,
+    "CW": 12,
+    "AW": 11,
+    "BM": 9,
+    "MP": 9,
+    "TC": 9,
+    "BQ": 8,
+    "VI": 8,
+    "NR": 7,
+    "SX": 7,
+    "WF": 7,
+    "MO": 6,
+    "SH": 6,
+    "TK": 6,
+    "IL": 5,
+    "LI": 5,
+    "SJ": 5,
+    "VG": 5,
+    "CK": 4,
+    "GI": 4,
+    "MF": 4,
+    "MS": 4,
+    "PM": 4,
+    "MC": 3,
+    "BL": 2,
+    "CC": 2,
+    "CX": 2,
+    "FK": 2,
+    "GS": 2,
+    "JE": 2,
+    "NF": 2,
+    "NU": 2,
+    "PN": 2,
+    "TF": 2,
+    "VA": 2,
+    "AQ": 1,
+    "BH": 1,
+    "KG": 1,
+    "NC": 1,
+    "SN": 1,
+    "TG": 1,
+    "XK": 1
+  }
+}
