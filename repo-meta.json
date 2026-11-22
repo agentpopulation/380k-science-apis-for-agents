@@ -1,0 +1,36 @@
+{
+  "name": "380k-science-apis-for-agents",
+  "old_name": "380k-science-apis-for-agents",
+  "new_name": "380k-science-apis-for-agents",
+  "url": "https://github.com/agentpopulation/380k-science-apis-for-agents",
+  "description": "383,715 science API endpoints that passed a keyless data call. For agent tools, apps, pipelines and evals. CSV, CC BY 4.0.",
+  "homepage": "https://agentpopulation.com/apis",
+  "topics": [
+    "api-endpoints",
+    "open-data",
+    "dataset",
+    "ai-agents",
+    "agent-tools",
+    "agentpopulation",
+    "science-data",
+    "research-data",
+    "geology",
+    "geoscience",
+    "sunrise-sunset",
+    "space-weather",
+    "satellite-data",
+    "biodiversity",
+    "gbif",
+    "stac"
+  ],
+  "release": {
+    "tag": "snapshot-2026-11-15",
+    "title": "Science API endpoints · snapshot 15 Nov 2026 · 383,715 endpoints",
+    "notesFile": "RELEASE_NOTES.md",
+    "manifest": "../_release/science-api-endpoints/release.json",
+    "assets": [
+      "../_release/science-api-endpoints/Science_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+      "../_release/science-api-endpoints/SHA256SUMS.txt"
+    ]
+  }
+}
